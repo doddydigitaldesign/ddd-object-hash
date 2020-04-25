@@ -1,0 +1,27 @@
+{
+  "name": "ddd-object-hash",
+  "version": "1.0.0",
+  "description": "An object-to-hash implementation written in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doddydigitaldesign/ddd-object-hash.git"
+  },
+  "keywords": [
+    "\"object",
+    "to",
+    "hash\""
+  ],
+  "author": "doddy@doddy.se",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doddydigitaldesign/ddd-object-hash/issues"
+  },
+  "homepage": "https://github.com/doddydigitaldesign/ddd-object-hash#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
