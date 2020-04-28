@@ -1,8 +1,7 @@
-import { Algorithms } from "./types";
-
 /**
- *
- * @param obj A JSON serializable javascript object
+ * ### objectToHash
+ * Serializes an object to a string and hashes it, returning a hex string.
+ * @param obj A JSON serializable object
  * @param alg
  */
 export default async function objectToHash(
@@ -17,4 +16,3 @@ export default async function objectToHash(
   const hex = arr.map((byte) => byte.toString(16).padStart(2, "0")).join("");
   return hex;
 }
-console.log(objectToHash({ test: "b hash" }, Algorithms.SHA256));
