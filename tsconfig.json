@@ -11,7 +11,7 @@
     "declaration": true,
     "target": "ESNext",
     "module": "ES6",
-    "lib": ["ES6", "ESNext"],
+    "lib": ["ES6", "ESNext", "DOM"],
     "strict": true,
     "rootDir": "src",
     "outDir": "dist",
